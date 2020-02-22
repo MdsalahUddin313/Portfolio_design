@@ -66,6 +66,13 @@ footer p{
         border-radius: 5px;
         color: white;
 }
+.link_button:hover{
+    text-decoration: none;
+        background-image: linear-gradient(85deg,lightSalmon,orange);
+        padding:13px  26px;
+        border-radius: 5px;
+        color:rgb(234, 238, 6);
+}
 .mid-banner{
     margin-top: 300px;
     background-image:url("images/dream-bg.png");
@@ -84,6 +91,10 @@ footer p{
     height: 50%;
     border-radius: 8px;
     background-color: white;
+}
+
+.single_experince:hover{
+    background-color: rgb(240, 245, 235);
 }
 .Experience_area{
     background-image: url("images/exp-bg.png");
