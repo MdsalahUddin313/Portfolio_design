@@ -1,15 +1,27 @@
+/* default function section */
 body{
     font-family: 'Merriweather';
     margin: 0;
 }
-.name_highlight{
-    color: coral;
-}
 h3{
     font-weight: bold;
 }
+h2{
+    font-size: 40px;
+}
 h1{
     font-size: 50px;
+}
+section{
+    height:500px;
+}
+
+/* id section */
+
+
+/* classes section */
+.name_highlight{
+    color: coral;
 }
 .half{
     width: 40%;
@@ -19,4 +31,27 @@ h1{
 }
 .half img{
     width: 100%;
+    padding-bottom: 150px;
+}
+
+.top-Banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.right-half{
+    margin-top: 50px;
+}
+.link_button{
+        text-decoration: none;
+        background-image: linear-gradient(85deg,lightSalmon,orange);
+        padding:10px  20px;
+        border-radius: 5px;
+        color: white;
+}
+.mid-banner{
+    margin-top: 300px;
+    background-image:url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
