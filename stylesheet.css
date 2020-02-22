@@ -1,9 +1,22 @@
 body{
     font-family: 'Merriweather';
+    margin: 0;
 }
-.font_color{
+.name_highlight{
     color: coral;
+}
+h3{
+    font-weight: bold;
 }
 h1{
     font-size: 50px;
+}
+.half{
+    width: 40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
 }
